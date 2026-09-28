@@ -13,7 +13,15 @@
 <script type="module">
 // Optional: paste your Firebase WEB config here. No service account or private keys.
 // On Firebase Hosting, the app also discovers /__/firebase/init.json automatically.
-const FIREBASE_CONFIG = null;
+const firebaseConfig = {
+  apiKey: "AIzaSyDzma5vFHvY1_ZyfgUChw7MyVuerMoRV8g",
+  authDomain: "terrace-five-game.firebaseapp.com",
+  projectId: "terrace-five-game",
+  storageBucket: "terrace-five-game.firebasestorage.app",
+  messagingSenderId: "954354275587",
+  appId: "1:954354275587:web:85ab6d54a86bebb9020536",
+  measurementId: "G-NN9KY0Q635"
+};
 const SDK_VERSION='12.7.0';
 const $=id=>document.getElementById(id);
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
